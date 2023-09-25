@@ -29,7 +29,7 @@ public class DiscordAccount extends DomainObject {
 	@ApiModelProperty("等待队列长度")
 	private int queueSize = 10;
 	@ApiModelProperty("任务超时时间(分钟)")
-	private int timeoutMinutes = 5;
+	private int timeoutMinutes = 10;
 
 	@JsonIgnore
 	public String getDisplay() {
